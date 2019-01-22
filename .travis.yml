@@ -3,4 +3,4 @@ compiler: gcc
 
 script:
 - g++ main.cpp -o main.out
-- ./main.out <input.txt>
+- ./main.out < input.txt
